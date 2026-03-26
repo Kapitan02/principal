@@ -287,7 +287,9 @@ src="https://www.facebook.com/tr?id=2129732110933232&ev=PageView&noscript=1"
         });
       } catch(e){}
 
-      window.open(destino.value, '_blank', 'noopener');
+      setTimeout(() => {
+  window.open(destino.value, '_blank', 'noopener');
+}, 300);
     });
 
   })();
